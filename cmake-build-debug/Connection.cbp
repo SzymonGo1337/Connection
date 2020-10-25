@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Connection"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Documents\;CMake Files\..\..\Documents\SFML-2.5.1\;CMake Files\..\..\Documents\SFML-2.5.1\lib\;CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\;CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Connection">
+				<Option output="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug/Connection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/szymon/Documents/SFML-2.5.1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 Connection"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Connection/fast">
+				<Option output="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug/Connection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/szymon/Documents/SFML-2.5.1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 Connection/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/szymon/CLionProjects/Connection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\szymon\CLionProjects\Connection\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/main.cpp">
+			<Option target="Connection"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/../../Documents/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/../../Documents/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/../../Documents/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/../../Documents/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/../../Documents/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/szymon/CLionProjects/Connection/../../Documents/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
